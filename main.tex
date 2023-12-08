@@ -15,23 +15,16 @@
 \input{front/abstract.tex}
 \input{front/AckAndWork.tex}
 
-
-\chapter{Introduction}\label{chapter:introduction}
-\setcounter{page}{1}\pagenumbering{arabic}
 \onehalfspacing
+\setcounter{page}{1}\pagenumbering{arabic}
 
-\section{Background}
+\input{chapters/introduction.tex}
+\input{chapters/lit_review.tex}
+\input{chapters/methodology.tex}
+\input{chapters/results.tex}
 
-
-\lipsum[1]
-\lipsum[2]
-\lipsum[3]\cite{10.7551/mitpress/8551.001.0001}
-
-\lipsum[1]
-\lipsum[2]
-\lipsum[3]
-
-\printbibliography
+% \addcontentsline{toc}{chapter}{Bibliography}
+\printbibliography[heading=bibintoc]
 
 
 \end{document}
