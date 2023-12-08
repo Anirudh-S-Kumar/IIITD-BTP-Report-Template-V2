@@ -1,0 +1,47 @@
+\input{metadata}
+
+
+\newcommand{\condBreak}[1]{\ifx#1\empty\else \\ \fi }
+
+\begin{titlepage}
+    \begin{center}
+        {\LARGE \bf \projTitle}
+        \vspace{.3in}
+
+            {\Large{Student Name: \projAuthorOneName}} \\
+            {\large{Roll Number: \projAuthorOneRollno}} \\
+        \vspace{.1in}
+
+        \ifdefined\twoAuthor
+            {\Large{Student Name: \projAuthorTwoName}} \\
+            {\large{Roll Number: \projAuthorTwoRollno}} \\
+        \fi
+
+
+        \vspace{1.3in}
+
+        {BTP report submitted in partial fulfilment of the requirements
+            \\for the Degree of B.Tech. in Computer Science \& Engineering}
+
+        {on \today \\}
+
+        \vspace{.65in}
+
+        \textbf{BTP Track}: \btptrack\\
+        \quad\\
+
+        {\textbf{BTP Advisor} \\
+            \advisorone            \condBreak{\advisortwo}
+            \advisortwo            \condBreak{\advisorthree}
+            \advisorthree          \condBreak{\advisorfour}
+            \advisorfour           \\
+        }
+
+        \vspace{3in}
+
+        {Indraprastha Institute of Information Technology\\
+            New Delhi}
+
+
+    \end{center}
+\end{titlepage}

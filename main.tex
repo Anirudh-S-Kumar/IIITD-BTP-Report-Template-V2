@@ -2,22 +2,23 @@
 \usepackage{reportSty}
  % define the title
 
-
-
-
 \addbibresource{ref.bib}
 
 \title{TITLE}
 \author{Anirudh S. Kumar}
 
+\def\projTitle{TITLE}
 
 \begin{document}
 
+% this is the title page
 
-\input{cover}
+\input{meta/cover.tex}
 
 \tableofcontents
-%\doublespacing
+
+
+
 
 \chapter{Introduction}\label{chapter:introduction}
 \pagenumbering{arabic}
@@ -29,7 +30,7 @@
 
 \lipsum[1]
 \lipsum[2]
-\lipsum[3]
+\lipsum[3]\cite{10.7551/mitpress/8551.001.0001}
 
 \lipsum[1]
 \lipsum[2]
