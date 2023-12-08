@@ -16,6 +16,7 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage{hyperref}
+\usepackage{geometry}
 
 
 % hyperref setup, change as you wish
@@ -32,3 +33,16 @@
 
 % bibliography file
 \addbibresource{ref.bib}
+
+% tables of content spacing
+\setlength{\parskip}{1ex}
+\parindent 0in
+
+% top and botom margins
+\geometry{
+    top=20mm,
+    bottom=20mm
+}
+
+\fancyhf{}
+\fancyfoot[CF]{\thepage}
