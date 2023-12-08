@@ -2,27 +2,23 @@
 \usepackage{reportSty}
  % define the title
 
-\addbibresource{ref.bib}
-
-\title{TITLE}
-\author{Anirudh S. Kumar}
-
-\def\projTitle{TITLE}
+\pagenumbering{roman}
 
 \begin{document}
 
 % this is the title page
 
-\input{meta/cover.tex}
+\input{front/cover.tex}
 
 \tableofcontents
+\input{front/declaration.tex}
 
-
+\chapter{Abstract}\label{chapter:abstract}
+\addcontentsline{toc}{chapter}{Abstract}
 
 
 \chapter{Introduction}\label{chapter:introduction}
-\pagenumbering{arabic}
-\setcounter{page}{1}
+\setcounter{page}{1}\pagenumbering{arabic}
 \onehalfspacing
 
 \section{Background}
