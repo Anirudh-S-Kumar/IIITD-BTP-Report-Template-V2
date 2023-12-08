@@ -1,13 +1,20 @@
-\chapter*{Acknowledgment}
-\addcontentsline{toc}{chapter}{Acknowledgment}
+\vbox{
+    \begin{minipage}[t][0.5\textheight][t]{\textwidth}
+        \chapter*{Acknowledgment}
+        \addcontentsline{toc}{chapter}{Acknowledgment}
 
-\lipsum[1]
+        \lipsum[1]
 
-\vspace{2in}
+    \end{minipage}
 
-% Comment out the following line if you don't want a work distribution section
-{\let\clearpage\relax\chapter*{Work Distribution}}
-\addcontentsline{toc}{chapter}{Work Distribution}
+    % If you don't want a work distribution section, comment out the following lines
+    % and change the height of the minipage above to 1\textheight
+    \nointerlineskip
+    \begin{minipage}[b][0.5\textheight][t]{\textwidth}
+        {\let\clearpage\relax\chapter*{Work Distribution}}
 
 
-\lipsum[2]
+        \lipsum[2]
+
+    \end{minipage}
+}

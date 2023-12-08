@@ -1,22 +1,29 @@
-\documentclass[letterpage, 11pt]{report}
+\documentclass[11pt]{report}
 \usepackage{reportSty}
  % define the title
 
-\pagenumbering{roman}
 
 \begin{document}
+
+\setcounter{page}{1}\pagenumbering{roman}
 
 % this is the title page
 
 \input{front/cover.tex}
 
-\tableofcontents
+
+
 \input{front/declaration.tex}
 \input{front/abstract.tex}
 \input{front/AckAndWork.tex}
 
+\tableofcontents
+\addcontentsline{toc}{chapter}{Table of Contents}
+
+\newpage
 \onehalfspacing
-\setcounter{page}{1}\pagenumbering{arabic}
+\setcounter{page}{1}
+\pagenumbering{arabic}
 
 \input{chapters/introduction.tex}
 \input{chapters/lit_review.tex}

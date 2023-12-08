@@ -4,6 +4,7 @@ This is a LaTeX template for BTP reports at IIIT Delhi. This is a overhaul of th
 ## Usage
 - Create a new repository using this template.
 - Add relevant details about the project in `metadata.tex`, like title, authors, advisor, etc.
+- Lipsum text is used in the template, replace it with your own text.
 - Abstract, Acknowledgements, etc. can be edited in `front` folder.
 - Chapters can be added in `chapters` folder.
 - Figures can be added in `figures` folder.
