@@ -9,7 +9,7 @@ This is a $\LaTeX$ template for BTP reports at IIIT Delhi. This is a overhaul of
 - Chapters can be added in `chapters` folder.
 - Figures can be added in `figures` folder.
 - Bibliography can be added in `ref.bib` file.
-- Styles can be edited in `reportSty.sty` folder, particular areas of interest are marked with comments.
+- Styles can be edited in `reportSty.sty` file, particular areas of interest are marked with comments.
 
 ## Compilation
 - The simplest way to compile the report is to use [Overleaf](https://www.overleaf.com/).
