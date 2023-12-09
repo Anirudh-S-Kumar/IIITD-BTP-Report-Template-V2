@@ -1,5 +1,5 @@
 # IIIT BTP Report Template V2
-This is a LaTeX template for BTP reports at IIIT Delhi. This is a overhaul of the template given on the [BTP page](https://www.iiitd.ac.in/academics/btech/btp) of IIIT Delhi website. A lot of inspiration has been taken from [this](https://github.com/apoorvkh/cvpr-latex-template) CVPR template.
+This is a $\LaTeX$ template for BTP reports at IIIT Delhi. This is a overhaul of the template given on the [BTP page](https://www.iiitd.ac.in/academics/btech/btp) of IIIT Delhi website. A lot of inspiration has been taken from [this](https://github.com/apoorvkh/cvpr-latex-template) CVPR template.
 
 ## Usage
 - Create a new repository using this template.
