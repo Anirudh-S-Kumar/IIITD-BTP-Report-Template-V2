@@ -13,5 +13,5 @@ This is a $\LaTeX$ template for BTP reports at IIIT Delhi. This is a overhaul of
 
 ## Compilation
 - The simplest way to compile the report is to use [Overleaf](https://www.overleaf.com/learn/how-to/Uploading_a_project/).
-- Additionally if you have Overleaf Premium, you can [diretly import from GitHub](https://www.overleaf.com/learn/how-to/GitHub_Synchronization).
+- Additionally if you have Overleaf Premium, you can [directly import from GitHub](https://www.overleaf.com/learn/how-to/GitHub_Synchronization).
 - If you want to compile locally, you can use `latexmk` or `pdflatex` to compile `main.tex` file.
