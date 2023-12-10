@@ -1,5 +1,5 @@
 # IIIT BTP Report Template V2
-This is a $\LaTeX$ template for BTP reports at IIIT Delhi. This is a overhaul of the template given on the [BTP page](https://www.iiitd.ac.in/academics/btech/btp) of IIIT Delhi website. A lot of inspiration has been taken from [this](https://github.com/apoorvkh/cvpr-latex-template) CVPR template.
+This is a $\LaTeX$ template for BTP reports at IIIT Delhi. This is a overhaul of the template given on the [BTP page](https://www.iiitd.ac.in/academics/btech/btp) of IIIT Delhi website. A lot of inspiration has been taken from [this](https://github.com/apoorvkh/cvpr-latex-template) CVPR template. Preview of the template can be seen in `main.pdf` file.
 
 ## Usage
 - Create a new repository using this template.
@@ -12,5 +12,6 @@ This is a $\LaTeX$ template for BTP reports at IIIT Delhi. This is a overhaul of
 - Styles can be edited in `reportSty.sty` file, particular areas of interest are marked with comments.
 
 ## Compilation
-- The simplest way to compile the report is to use [Overleaf](https://www.overleaf.com/).
+- The simplest way to compile the report is to use [Overleaf](https://www.overleaf.com/learn/how-to/Uploading_a_project/).
+- Additionally if you have Overleaf Premium, you can [diretly import from GitHub](https://www.overleaf.com/learn/how-to/GitHub_Synchronization).
 - If you want to compile locally, you can use `latexmk` or `pdflatex` to compile `main.tex` file.
