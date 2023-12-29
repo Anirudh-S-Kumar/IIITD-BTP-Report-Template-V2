@@ -12,6 +12,6 @@ This is a $\LaTeX$ template for BTP reports at IIIT Delhi. This is a overhaul of
 - Styles can be edited in `reportSty.sty` file, particular areas of interest are marked with comments.
 
 ## Compilation
-- The simplest way to compile the report is to use [Overleaf](https://www.overleaf.com/learn/how-to/Uploading_a_project/).
+- The simplest way to compile the report is to use the [Overleaf Template](https://www.overleaf.com/latex/templates/iiitd-btp-report-template-v2/wrxvqmxttzgx).
 - Additionally if you have Overleaf Premium, you can [directly import from GitHub](https://www.overleaf.com/learn/how-to/GitHub_Synchronization).
 - If you want to compile locally, you can use `latexmk` or `pdflatex` to compile `main.tex` file.
